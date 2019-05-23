@@ -2,8 +2,8 @@
 
 ## Preparation
 
--   Fork the project into a **private repository**.
--   Checkout your repository.
+-   Checkout the repository.
+-   Create and checkout your own branch.
 -   Run `yarn` inside this folder to install all dependencies.
 
 ## Available Scripts
@@ -56,4 +56,4 @@ Not required here.
 
 ## Pull-Request
 
--   Create a pull request to the original repository.
+-   Create a pull request from your branch to master.
