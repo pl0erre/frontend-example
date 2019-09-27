@@ -34,7 +34,7 @@ Not required here.
 ### Task 1: Preparation
 
 -   Try to install and run the code.
--   Read the code and try to unterstand the underlying concepts
+-   Read the code and try to understand the underlying concepts
 
 ### Task 2: Concepts
 
