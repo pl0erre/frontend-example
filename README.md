@@ -4,7 +4,7 @@
 
 -   Install [Node.js](https://nodejs.org/en/)
 -   Install [Yarn](https://yarnpkg.com/en/)
--   Checkout the repository.
+-   Fork and checkout the repository.
 -   Create and checkout your own branch.
 -   Run `yarn` inside this folder to install all dependencies.
 
@@ -58,4 +58,4 @@ Not required here.
 
 ## Pull-Request
 
--   Create a pull request from your branch to master.
+-   Create a pull request from your fork to this repo.
