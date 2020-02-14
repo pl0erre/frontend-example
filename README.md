@@ -38,9 +38,19 @@ Not required here.
 
 ### Task 2: Concepts
 
--   Explain with your own words the different state management approaches (context, redux) with their advantages and disadvantages.
--   What are the differences between classes and functional components?
--   What are the advantages of hooks over high order components or even mixins?
+    -   Explain with your own words the different state management approaches (context, redux) with their advantages and disadvantages.
+====
+In general, state managment systems are used to maintain the state within an application without passing down props to every component which might need the actual state. The context API is a built-in tool to manage this global state. Its major advantage is its simplicity, as well as the fact that no third-party dependencies are required. This results in a smaller bundle and makes it easier to maintain the code over time. This makes the Context API suitable for using it in smaller applications which need a global state.
+However, Redux should be used for more complex applications. Although it is more time consuming to set it up, It comes with Redux DevTools which helps with debugging while development. It also allowes the implementation of middleware, thus making it more powerfull. Last but not least, Redux has a better performance for larger systems.
+====
+    -   What are the differences between classes and functional components?
+====
+As already implied, class components are based on js classes. They can contain constructor functions, state as well as methods to carry out tasks. Until React implemented Hooks, using class components was the best way to maintain state within a component. Function based components do not include the ability to store any value in state. They need less code, are easier to read and provide better performances than class based compoentns. As mentioned before, React introduced Hooks to add state management to functional components.
+====
+    -   What are the advantages of hooks over high order components or even mixins?
+====
+!!!
+====
 
 ### Task 3: View
 

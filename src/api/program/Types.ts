@@ -5,6 +5,8 @@ export interface Team {
 
 export interface Match {
     id: string;
+    country: string;
+    league: string;
     begin: number;
     homeTeam: Team;
     awayTeam: Team;
