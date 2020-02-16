@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import * as ProgramTypes from '../../../api/program/Types';
 import Match from '../../common/components/Match';
 import styled from 'styled-components';
@@ -13,6 +13,15 @@ interface Props {
 }
 
 const MatchList: React.FC<Props> = ({matches, getMatches}) => {
+    // update Matchlist every 60 seconds
+    useEffect(() => {
+        const interval = setInterval(() => {
+            getMatches();
+        }, 60000);
+        // setInterval must be cleared, otherwise it is starting a new interval over and over again
+        return () => clearInterval(interval);
+    });
+
     return (
         <Container>
             {matches.length === 0 ? (
